@@ -1,9 +1,10 @@
 import React from 'react';
-import './App.css';
+import Login from './Views/login/login'
 
 function App() {
   return (
     <>
+    <Login />
     </>
   );
 }

@@ -23,22 +23,24 @@ export default () => {
   }
 
   return (
-    <div className="logiN">
+    <div className="loginBiG">
       <form className="login-panel">
         <h1>Login:</h1>
         <input
+          className="input1"
           name="name"
           placeholder="Username"
           onChange={inputChanged}
           value={formInput.name}
         ></input>
         <input
+        className="input2"
           name="password"
           placeholder="Password"
           onChange={inputChanged}
           value={formInput.password}
         ></input>
-        <button type="submit" onClick={submit}>
+        <button className="btn-lgn" type="submit" onClick={submit}>
           Login
         </button>
       </form>

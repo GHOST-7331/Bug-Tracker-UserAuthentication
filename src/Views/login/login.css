@@ -1,0 +1,62 @@
+.loginBiG {
+  width: 100vw;
+  height: 105vh;
+  background: url("../../images/BugImage.jpg");
+  margin-left: -20.8vw;
+  margin-top: -27px;
+  background-size: 100vw;
+  background-color: rgba(0, 0, 0, 0.144);
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+  position: absolute;
+}
+
+.login-panel {
+  width: 30vw;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 25vh auto;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgba(2, 0, 0, 0.397);
+}
+
+.login-panel h1 {
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.input1 {
+  border-radius: 5px;
+}
+.input2 {
+  border-bottom: 5px;
+}
+
+.login-panel input {
+  width: 70%;
+  height: 30px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+button {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 8px 25px;
+  text-align: center;
+}
+button:hover{
+  transition: all 0.3s;
+    background-color:rgba(255, 255, 255, 0.171);
+}
+
+::placeholder {
+  color: black;
+  background-color: transparent;
+}

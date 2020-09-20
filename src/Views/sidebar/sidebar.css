@@ -1,0 +1,37 @@
+.sidebar{
+    position: fixed;
+    margin-left: -22%;
+    margin-top: -0.7%;
+    width: 20%;
+    height: 100%;
+    background-color: rgba(2, 0, 0, 0.397);
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.sidebar li{
+    padding: 10px;
+    font-size: 1.5rem;
+    border-bottom: 1px groove;
+}
+
+.sidebar ul{
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar .nav-link{
+    color: white;
+    text-decoration: none;
+
+}
+.sidebar li:hover{
+    transition: all 0.3;
+    background-color:rgba(255, 255, 255, 0.171);
+}
+
+
+
+
+  
